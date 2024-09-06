@@ -1,0 +1,30 @@
+.experience {
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.experience-item h3 {
+  color: #333;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience-item h3 span {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.experience-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+  transition: opacity 0.3s ease;
+}

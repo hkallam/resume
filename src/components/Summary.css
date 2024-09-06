@@ -1,0 +1,37 @@
+.summary {
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin: 20px 0;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.summary h2 {
+  color: #333;
+}
+
+.summary p {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-height: 60px;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.summary p.expanded {
+  max-height: 200px;
+}
+
+.summary button {
+  background-color: #61dafb;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.summary button:hover {
+  background-color: #4a4a4a;
+}

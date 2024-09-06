@@ -1,0 +1,23 @@
+.projects {
+  padding: 20px;
+  background-color: #e0e0e0;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.project-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.project-item h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.project-item p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+  transition: opacity 0.3s ease;
+}
